@@ -11,7 +11,6 @@ import Foundation
 class HomeViewModel: ObservableObject {
     
     let units = ["Metres", "Kilometres", "Feet", "Miles"]
-    let unitArray: [UnitLength] = [.meters, .kilometers, .feet, .miles]
     
     func performCalculation(with input: Double,
                             inputTypeIndex: Int,
